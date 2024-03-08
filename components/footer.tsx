@@ -7,9 +7,7 @@ export default function Footer() {
         &copy; 2024 Muliika Samuel. All rights reserved.
       </small>
       <p className="text-xs">
-        <span className="font-semibold"></span> Built with
-        React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
-        Framer Motion, React Email & Resend.
+        <span className="font-semibold">Quote of the day: </span> "When I let go of what I am, I become what I might be."
       </p>
     </footer>
   );
