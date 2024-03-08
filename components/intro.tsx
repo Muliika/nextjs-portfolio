@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare, FaTwitter } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -62,7 +62,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello there! 👋, I'm Muliika – <span className="italic"> your digital architect</span>. Let's transform your digital ideas into relaity.</span> 
+        <span className="font-bold">Hello there! 👋, I'm Muliika – <span className="italic"> your digital architect</span>. Let's transform your digital ideas into reality.</span> 
         {/* I'm a{" "}
         <span className="font-bold">self-taught full-stack developer</span> with{" "}
         <span className="font-bold">8 years</span> of experience. I enjoy
@@ -100,10 +100,10 @@ export default function Intro() {
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://linkedin.com"
+          href="#"
           target="_blank"
         >
-          <BsLinkedin />
+          <FaTwitter />
         </a>
 
         {/* <a
