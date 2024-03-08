@@ -33,8 +33,8 @@ export default function Contact() {
 
       <p className="text-gray-700 -mt-6 dark:text-white/80">
         Please contact me directly at{" "}
-        <a className="underline" href="mailto:example@gmail.com">
-          example@gmail.com
+        <a className="underline" href="mailto:samuelmuliika@gmail.com">
+          samuelmuliika@gmail.com
         </a>{" "}
         or through this form.
       </p>
@@ -69,6 +69,11 @@ export default function Contact() {
         />
         <SubmitBtn />
       </form>
+      <br/>
+      {/* <br/> */}
+      <h1 className="text-gray-700 mt-6 dark:text-white/80 text-lg">
+        Tell: 0775532402 / 0756550169
+      </h1>
     </motion.section>
   );
 }

@@ -4,6 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
+import front from "@/public/front.png";
+import back from "@/public/back.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -64,16 +66,16 @@ export const projectsData = [
   {
     title: "Front-end web-development",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "Transforming your vision into reality through intuitive frontend development that prioritizes usability and aesthetics.",
     tags: ["React", "Next.js", "HTML", "CSS", "JavaScript"],
-    imageUrl: corpcommentImg,
+    imageUrl: front,
   },
   {
     title: "Back-end web-developmnt",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Behind every great website lies a powerful backend. Let me build the engine that propels your online presence forward.",
     tags: ["Django", "DRF", "PostgreSql"],
-    imageUrl: rmtdevImg,
+    imageUrl: back,
   },
   // {
   //   title: "Word Analytics",
