@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Hello there! 👋 I'm Muliika, a passionate and results-driven full-stack developer with love for turning ideas into reality through code. I thrive in dynamic environments, embracing challenges as opportunities for growth. I specialize in building robust and scalable web applications from concept to completion. Whether it's crafting elegant front-end experiences or architecting efficient back-end systems, I enjoy the entire process of creating software that makes a positive impact.
+        I'm a self-taught and results-driven full-stack web developer with love for turning ideas into reality through code. I thrive in dynamic environments, embracing challenges as opportunities for growth. I specialize in building robust and scalable web applications from concept to completion. Whether it's crafting elegant front-end experiences or architecting efficient back-end systems, I enjoy the entire process of creating software that makes a positive impact.
       </p>
 
       <p>
